@@ -20,7 +20,6 @@ public class ColorPoint extends Point {
 	
 	public void show(){
 		System.out.println("좌표[x=" + getX() + ", y=" + getY() + ", color = " + color+ "]에 점을 그렸습니다.");
-		
 	}
 	
 	

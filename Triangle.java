@@ -1,10 +1,9 @@
 package shape;
 
-public class Rect extends Shape implements Drawable{
+public class Triangle extends Shape implements Drawable{
 	
 	private int width;
 	private int height;
-	
 	
 	public int getWidth() {
 		return width;
@@ -24,12 +23,12 @@ public class Rect extends Shape implements Drawable{
 	
 	@Override
 	public void draw(){
-		System.out.println("사각형을 그립니다.");
+		System.out.println("삼각형을 그립니다.");
 	}
 
 	@Override
 	public double shapeArea() {
-		return width * height;
+		return (width * height) / 2;
 	}
 
 	@Override
